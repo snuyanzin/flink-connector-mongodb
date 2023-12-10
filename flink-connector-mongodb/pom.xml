@@ -32,6 +32,11 @@ under the License.
 
 	<packaging>jar</packaging>
 
+	<properties>
+		<flink.connector.module.config><!--
+        MongoDynamicTableSourceITCase --> --add-opens=java.base/java.lang=ALL-UNNAMED  </flink.connector.module.config>
+	</properties>
+
 	<dependencies>
 		<!-- Core -->
 
